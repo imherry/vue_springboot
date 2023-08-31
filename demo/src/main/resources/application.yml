@@ -6,3 +6,5 @@ spring:
     url: jdbc:mysql://localhost:3306/lzw?serverTimezone=GMT%2b8
     username: root
     password: lzw123456
+  mybatis:
+    mapper-location: classpath:mapper/*.xml
